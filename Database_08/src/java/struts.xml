@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+          <action name="locationSearch" class="action.searchAction">  
+            <result name="success">resultCityList.jsp</result>  
+            <result name="error">error.jsp</result>  
+         </action>
+         <action name="locationRelaxSearch" class="action.relaxSearchAction">  
+            <result name="success">resultCityList.jsp</result>  
+            <result name="error">error.jsp</result>  
+        </action>
+    </package>
+</struts>
