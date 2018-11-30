@@ -6,3 +6,5 @@ This system provides users some recommendations about the suitable places to liv
 
 
 ![page shows like this](https://github.com/BlueSeven277/databasePro_WebSearch/blob/master/image.png)
+
+![](https://github.com/BlueSeven277/databasePro_WebSearch/blob/master/image2.png)
